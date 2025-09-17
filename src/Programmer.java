@@ -1,11 +1,11 @@
 public class Programmer extends Employee {
 
     double workingHour;
-    double amountPerHour;
+    double hourlyRate;
     String name;
-    public Programmer(double workingHour, double amountPerHour, String name){
+    public Programmer(double workingHour, double hourlyRate, String name){
         this.workingHour = workingHour;
-        this.amountPerHour = amountPerHour;
+        this.hourlyRate = hourlyRate;
         this.name = name;
     }
     @Override
@@ -16,7 +16,7 @@ public class Programmer extends Employee {
 
     @Override
     double calculateSalary(){
-        salary = workingHour * amountPerHour;
+        salary = workingHour * hourlyRate;
         System.out.println(" And The Salary she get monthly is " + salary);
         return salary;
 

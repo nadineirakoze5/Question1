@@ -6,7 +6,7 @@ public class Main {
    myEmployee.display();
    myEmployee.calculateSalary();
 
-   Employee myEmployee1 = new Programmer(15.0, 15000.0, "Keza");
+   Employee myEmployee1 = new Programmer(15.0, 1500.0, "Keza");
         myEmployee1.display();
         myEmployee1.calculateSalary();
     }
