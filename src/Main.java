@@ -26,7 +26,7 @@ import java.util.Scanner;
          scanner.nextLine();
 
          System.out.print("\nEnter Programmer name: ");
-         String pName = scanner.nextLine();
+         String nName = scanner.nextLine();
 
          System.out.print("Enter Programmer working hours: ");
          double workingHour = scanner.nextDouble();
